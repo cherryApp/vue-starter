@@ -1,24 +1,16 @@
 # basics
 
-## Project setup
-```
-npm install
-```
+## Start
+- npm i -g @vue/cli
+- vue --version
+- vue create basic
+- cd basic
+- npm run serve
 
-### Compiles and hot-reloads for development
+## Add Bootstrap
+- npm i bootstrap jquery popper.js
+- add to main.js: 
+```javascript
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
